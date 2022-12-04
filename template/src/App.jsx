@@ -7,8 +7,11 @@ import { setMe } from "./store/features/auth/authSlice.js";
 function App() {
   const dispatch = useDispatch();
   const me = JSON.parse(localStorage.getItem("me"));
+
   useEffect(() => {
+    // eslint-disable-next-line
     dispatch(setMe(me));
+    // eslint-disable-next-line
   }, []);
 
   return (
