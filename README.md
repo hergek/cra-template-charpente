@@ -58,6 +58,14 @@ the present, template uses much more robust dependencies; it is advisable to use
 - Internal Management
 - etc...
 
+## Note
+
+remember to run the following command, to check the dependencies version already installed
+
+```bash
+npx npm-check-updates
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
@@ -70,3 +78,7 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+```
+
+```
