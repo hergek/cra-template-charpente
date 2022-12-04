@@ -7,19 +7,19 @@
 with npx
 
 ```bash
-npx create-react-app [app-name] --template cra-template-charpente
+npx create-react-app [app-name] --template charpente
 ```
 
 or with npm
 
 ```bash
-npm create-react-app [app-name] --template cra-template-charpente
+npm create-react-app [app-name] --template charpente
 ```
 
 or with yarn
 
 ```bash
-yarn create react-app [app-name] --template cra-template-charpente
+yarn create react-app [app-name] --template charpente
 ```
 
 ```bash
