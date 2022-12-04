@@ -49,6 +49,15 @@ yarn create react-app [app-name] --template crea-template-charpente
 └── README.md
 ```
 
+## Note
+
+the present, template uses much more robust dependencies; it is advisable to use it for projects:
+
+- administration
+- Back office
+- Internal Management
+- etc...
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
