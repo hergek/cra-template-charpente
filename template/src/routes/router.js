@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import { publicRoutes, routes } from "./baseRouter.js";
-import ProtectedRoutes from "./protectedRoutes.js";
+import ProtectedRoutes from "./ProtectedRoutes.js";
 
 const Router = () => {
   return (

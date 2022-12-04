@@ -4,7 +4,9 @@ import Layouts from "../../layout/Layouts.jsx";
 const Home = () => {
   return (
     <>
-      <Layouts>home</Layouts>
+      <Layouts>
+        <h1>Home</h1>
+      </Layouts>
     </>
   );
 };
