@@ -60,7 +60,7 @@ the present, template uses much more robust dependencies; it is advisable to use
 
 ## Note
 
-remember to run the following command, to check the dependencies version already installed
+remember to run the following command, to check the version dependencies if they are up to date
 
 ```bash
 npx npm-check-updates
