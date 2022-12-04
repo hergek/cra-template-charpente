@@ -1,33 +1,13 @@
 import { Suspense } from "react";
-
 import { Route, Routes } from "react-router-dom";
-import Login from "../pages/auth/Login.jsx";
-import Home from "../pages/dashbord/Home.jsx";
-import NotFound from "../pages/out/NotFound.jsx";
-import Secured from "./Secured.jsx";
-
-const privateRoutes = [
-  {
-    path: "/",
-    El: Home,
-  },
-  {
-    path: "/login",
-    El: Login,
-  },
-  {
-    path: "*",
-    El: NotFound,
-  },
-];
-
-const publicRoutes = ["/login", "*"];
+import { publicRoutes, routes } from "./baseRouter.js";
+import ProtectedRoutes from "./protectedRoutes.js";
 
 const Router = () => {
   return (
     <>
       <Routes>
-        {privateRoutes.map(({ path, El }) => (
+        {routes.map(({ path, El }) => (
           <Route
             key={path}
             path={path}
@@ -36,9 +16,9 @@ const Router = () => {
                 {publicRoutes.includes(path) ? (
                   <El />
                 ) : (
-                  <Secured>
+                  <ProtectedRoutes>
                     <El />
-                  </Secured>
+                  </ProtectedRoutes>
                 )}
               </Suspense>
             }
