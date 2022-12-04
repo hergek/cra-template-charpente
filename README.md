@@ -63,7 +63,7 @@ the present, template uses much more robust dependencies; it is advisable to use
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
-checkit here : [charpente](https://github.com/inspecthers/cra-template-charpente)
+checkit here [charpente](https://github.com/inspecthers/cra-template-charpente)
 
 Please make sure to update tests as appropriate.
 
