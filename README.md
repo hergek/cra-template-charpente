@@ -1,6 +1,6 @@
 # Charpente
 
-    The template for your web admin projects.
+    The template for your web Application, using ReactJs.
 
 ## Installation
 
