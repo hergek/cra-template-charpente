@@ -6,7 +6,7 @@ const token = me?.token;
 
 _axios.interceptors.request.use((req) => {
   if (token) {
-    req.headers.authorization = token;
+    req.headers.Authorization = token;
   }
   return req;
 });
