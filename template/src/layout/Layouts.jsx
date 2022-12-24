@@ -5,12 +5,16 @@ import Topbard from "../components/Topbard.jsx";
 
 const Layouts = ({ children }) => {
   return (
-    <>
-      <Topbard />
+    <div class="flex h-screen bg-gray-50 dark:bg-gray-900">
       <Sidebard />
-      {children}
-      <Footer />
-    </>
+      <div class="flex flex-col flex-1 w-full">
+        <Topbard />
+        <main class="h-full flex flex-col justify-between overflow-y-auto bg-green-500">
+          {children}
+          <Footer />
+        </main>
+      </div>
+    </div>
   );
 };
 
