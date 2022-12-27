@@ -7,7 +7,7 @@ const Layouts = ({ children }) => {
   return (
     <div class="flex flex-row min-h-screen bg-gray-100 text-gray-800">
       <Sidebard />
-      <main class="main flex flex-col flex-grow -ml-64 md:ml-0 transition-all duration-150 ease-in">
+      <main class="main w-[75%] flex flex-col flex-grow -ml-64 md:ml-0 transition-all duration-150 ease-in">
         <Topbard />
         {children}
         <Footer />
